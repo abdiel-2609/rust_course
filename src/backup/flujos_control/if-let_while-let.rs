@@ -12,7 +12,7 @@ fn main() {
         print!("edad: {}", value);
     }
 
-    // while-let
+    // while-let 
     let mut mensajes_no_leidos = Some(2);
 
     loop {
