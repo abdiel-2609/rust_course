@@ -16,7 +16,7 @@ impl Usuario {
 fn main() {
     let user = Usuario {
         nombre: "Abdiel".to_string(),
-        email: "abdiel.alvarado@wabtec.com".to_string(),
+        email: "abdiel.alvarado@email.com".to_string(),
         nacimiento: 2003,
         activo: true,
     };
@@ -25,11 +25,11 @@ fn main() {
 
     println!("Usuario {}, edad {}, ", user.nombre, user.edad());
 
-    let user1 = nuevo_usuario(String::from("Abdiel"), String::from("abdiel.alvarado@wabtec.com"));
+    let user1 = nuevo_usuario(String::from("Abdiel"), String::from("abdiel.alvarado@email.com"));
 
     let user2 = Usuario{
         nombre: "Saul".to_string(),
-        email: "saam.0926@gmail.com".to_string(),
+        email: "abdiel.alvarado@email.com".to_string(),
         ..user1
     };
 
