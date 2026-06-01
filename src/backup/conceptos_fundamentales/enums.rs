@@ -22,7 +22,7 @@ enum WebSite {
 fn main() {
     let mut user = User {
         name: "Abdiel".to_string(),
-        email: String::from("abdiel.alvarado@wabtec.com"),
+        email: String::from("abdiel.alvarado@email.com"),
         activo: true,
         user_role: UserRole::BASIC,
         website: WebSite::INSTAGRAM(String::from("www.instagram.com)"))
